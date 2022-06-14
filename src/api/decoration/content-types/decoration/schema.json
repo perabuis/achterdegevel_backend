@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "gevels",
+  "collectionName": "decorations",
   "info": {
-    "singularName": "gevel",
-    "pluralName": "gevels",
-    "displayName": "Gevel"
+    "singularName": "decoration",
+    "pluralName": "decorations",
+    "displayName": "Decoration"
   },
   "options": {
     "draftAndPublish": true
@@ -21,11 +21,11 @@
       "type": "media",
       "multiple": false
     },
-    "profile": {
+    "profiles": {
       "type": "relation",
-      "relation": "oneToOne",
+      "relation": "manyToMany",
       "target": "api::profile.profile",
-      "inversedBy": "gevel"
+      "mappedBy": "decorations"
     }
   }
 }

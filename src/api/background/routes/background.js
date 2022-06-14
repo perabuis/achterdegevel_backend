@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * gevel router.
+ * background router.
  */
 
 const { createCoreRouter } = require('@strapi/strapi').factories;
 
-module.exports = createCoreRouter('api::gevel.gevel');
+module.exports = createCoreRouter('api::background.background');

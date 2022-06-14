@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * gevel service.
+ * decoration service.
  */
 
 const { createCoreService } = require('@strapi/strapi').factories;
 
-module.exports = createCoreService('api::gevel.gevel');
+module.exports = createCoreService('api::decoration.decoration');

@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- *  gevel controller
+ *  window controller
  */
 
 const { createCoreController } = require('@strapi/strapi').factories;
 
-module.exports = createCoreController('api::gevel.gevel');
+module.exports = createCoreController('api::window.window');
