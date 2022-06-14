@@ -41,41 +41,10 @@
       "inversedBy": "profiles"
     },
     "gevel": {
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ],
-      "type": "media",
-      "multiple": false
-    },
-    "color1": {
-      "type": "string"
-    },
-    "color2": {
-      "type": "string"
-    },
-    "color3": {
-      "type": "string"
-    },
-    "x1": {
-      "type": "decimal"
-    },
-    "x2": {
-      "type": "decimal"
-    },
-    "x3": {
-      "type": "decimal"
-    },
-    "y1": {
-      "type": "decimal"
-    },
-    "y2": {
-      "type": "decimal"
-    },
-    "y3": {
-      "type": "decimal"
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::gevel.gevel",
+      "inversedBy": "profile"
     }
   }
 }
