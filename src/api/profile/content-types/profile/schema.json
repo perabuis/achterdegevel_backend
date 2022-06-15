@@ -34,12 +34,6 @@
     "name": {
       "type": "string"
     },
-    "decorations": {
-      "type": "relation",
-      "relation": "manyToMany",
-      "target": "api::decoration.decoration",
-      "inversedBy": "profiles"
-    },
     "gevel": {
       "type": "relation",
       "relation": "oneToOne",
