@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "gevel_van_weeks",
+  "info": {
+    "singularName": "gevel-van-week",
+    "pluralName": "gevel-van-weeks",
+    "displayName": "Gevel_van_week"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "video_url": {
+      "type": "string"
+    },
+    "img": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "text": {
+      "type": "text"
+    },
+    "name": {
+      "type": "string"
+    },
+    "intro": {
+      "type": "text"
+    },
+    "views": {
+      "type": "integer"
+    }
+  }
+}
