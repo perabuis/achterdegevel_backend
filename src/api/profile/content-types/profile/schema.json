@@ -38,7 +38,7 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::gevel.gevel",
-      "inversedBy": "profile"
+      "mappedBy": "profile"
     }
   }
 }
