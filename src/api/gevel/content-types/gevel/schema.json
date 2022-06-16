@@ -12,25 +12,17 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "cover": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
-    },
     "profile": {
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::profile.profile",
       "inversedBy": "gevel"
     },
-    "path": {
+    "cover_img": {
       "type": "text"
+    },
+    "views": {
+      "type": "integer"
     }
   }
 }

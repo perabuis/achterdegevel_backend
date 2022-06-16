@@ -39,6 +39,15 @@
       "relation": "oneToOne",
       "target": "api::gevel.gevel",
       "mappedBy": "profile"
+    },
+    "streetnumber": {
+      "type": "integer"
+    },
+    "answers": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::answer.answer",
+      "mappedBy": "profile"
     }
   }
 }
