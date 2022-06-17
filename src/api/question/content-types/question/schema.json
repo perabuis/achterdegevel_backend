@@ -17,6 +17,12 @@
     },
     "week": {
       "type": "boolean"
+    },
+    "answers": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::answer.answer",
+      "mappedBy": "question"
     }
   }
 }

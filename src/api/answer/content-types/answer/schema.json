@@ -23,8 +23,9 @@
     },
     "question": {
       "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::question.question"
+      "relation": "manyToOne",
+      "target": "api::question.question",
+      "inversedBy": "answers"
     }
   }
 }
